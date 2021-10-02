@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 34</div>
+  <img src="IMG-5581.JPG" style="width:100%">
+  <div class="text">Home Entry</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 34</div>
+  <img src="IMG-5582.JPG" style="width:100%">
+  <div class="text">Door</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 34</div>
+  <img src="IMG-5583.JPG" style="width:100%">
+  <div class="text">Entry</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 34</div>
+  <img src="IMG-5584.JPG" style="width:100%">
+  <div class="text">Living Room</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 34</div>
+  <img src="IMG-5585.JPG" style="width:100%">
+  <div class="text">Living Room</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 34</div>
+  <img src="IMG-5586.JPG" style="width:100%">
+  <div class="text">Kitchen</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 34</div>
+  <img src="IMG-5587.JPG" style="width:100%">
+  <div class="text">Kitchen</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 34</div>
+  <img src="IMG-5588.JPG" style="width:100%">
+  <div class="text">Kitchen</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 34</div>
+  <img src="IMG-5589.JPG" style="width:100%">
+  <div class="text">Dining area</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 34</div>
+  <img src="IMG-5590.JPG" style="width:100%">
+  <div class="text">Dining area</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 34</div>
+  <img src="IMG-5591.JPG" style="width:100%">
+  <div class="text">Dining area</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">12 / 34</div>
+  <img src="IMG-5592.JPG" style="width:100%">
+  <div class="text">Kitchen</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">13 / 34</div>
+  <img src="IMG-5593.JPG" style="width:100%">
+  <div class="text">bedroom one</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">14 / 34</div>
+  <img src="IMG-5594.JPG" style="width:100%">
+  <div class="text">Bathroom one</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">15 / 34</div>
+  <img src="IMG-5595.JPG" style="width:100%">
+  <div class="text">Upstairs hallway</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">16 / 34</div>
+  <img src="IMG-5596.JPG" style="width:100%">
+  <div class="text">bedroom 2</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">17 / 34</div>
+  <img src="IMG-5597.JPG" style="width:100%">
+  <div class="text">bedroom 2</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">18 / 34</div>
+  <img src="IMG-5598.JPG" style="width:100%">
+  <div class="text">bedroom 3</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">19 / 34</div>
+  <img src="IMG-5599.JPG" style="width:100%">
+  <div class="text">laundry and dryer</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">20 / 34</div>
+  <img src="IMG-5600.JPG" style="width:100%">
+  <div class="text">bathroom 2</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">21 / 34</div>
+  <img src="IMG-5601.JPG" style="width:100%">
+  <div class="text">Upstairs hallway</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">22 / 34</div>
+  <img src="IMG-5602.JPG" style="width:100%">
+  <div class="text">bedroom 4</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">23 / 34</div>
+  <img src="IMG-5603.JPG" style="width:100%">
+  <div class="text">bedroom 4</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">24 / 34</div>
+  <img src="IMG-5605.JPG" style="width:100%">
+  <div class="text">bathroom</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">25 / 34</div>
+  <img src="IMG-5606.JPG" style="width:100%">
+  <div class="text">bathroom</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">26 / 34</div>
+  <img src="IMG-5607.JPG" style="width:100%">
+  <div class="text">bathroom</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">27 / 34</div>
+  <img src="IMG-5608.JPG" style="width:100%">
+  <div class="text">closet</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">28 / 34</div>
+  <img src="IMG-5609.JPG" style="width:100%">
+  <div class="text">backyard</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">29 / 34</div>
+  <img src="IMG-5610.JPG" style="width:100%">
+  <div class="text">back side of house</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">30 / 34</div>
+  <img src="IMG-5611.JPG" style="width:100%">
+  <div class="text">backyard</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">31 / 34</div>
+  <img src="IMG-5612.JPG" style="width:100%">
+  <div class="text">back side of house</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">32 / 34</div>
+  <img src="IMG-5613.JPG" style="width:100%">
+  <div class="text">front of house</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">33 / 34</div>
+  <img src="IMG-5614.JPG" style="width:100%">
+  <div class="text">drive way</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">34 / 34</div>
+  <img src="Capture.PNG" style="width:100%">
+  <div class="text">interior features.</div>
+</div>
+
+<br>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+
+  <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+    <span class="dot" onclick="currentSlide(12)"></span>
+    <span class="dot" onclick="currentSlide(13)"></span>
+    <span class="dot" onclick="currentSlide(14)"></span>
+    <span class="dot" onclick="currentSlide(15)"></span>
+    <span class="dot" onclick="currentSlide(16)"></span>
+    <span class="dot" onclick="currentSlide(17)"></span>
+    <span class="dot" onclick="currentSlide(18)"></span>
+    <span class="dot" onclick="currentSlide(19)"></span>
+    <span class="dot" onclick="currentSlide(20)"></span>
+    <span class="dot" onclick="currentSlide(21)"></span>
+    <span class="dot" onclick="currentSlide(22)"></span>
+    <span class="dot" onclick="currentSlide(23)"></span>
+    <span class="dot" onclick="currentSlide(24)"></span>
+    <span class="dot" onclick="currentSlide(25)"></span>
+    <span class="dot" onclick="currentSlide(26)"></span>
+    <span class="dot" onclick="currentSlide(27)"></span>
+    <span class="dot" onclick="currentSlide(28)"></span>
+    <span class="dot" onclick="currentSlide(29)"></span>
+    <span class="dot" onclick="currentSlide(30)"></span>
+    <span class="dot" onclick="currentSlide(31)"></span>
+    <span class="dot" onclick="currentSlide(32)"></span>
+    <span class="dot" onclick="currentSlide(33)"></span>
+    <span class="dot" onclick="currentSlide(34)"></span>
+
+
+  
+  <h1>Home features 4 bedrooms, 2.5 baths & office on the main so total 5 rooms, open concept floor plan with lots of natural lights, laminate flooring through out the main floor, beautiful gas fireplace, SS appliances in the kitchen, Good size backyard with covered patio. Lot Size
+    5,627 Sq. Ft.Area of Housen 2,220 Sq Ft. Address: 501 S 20th St, Renton, WA 98055</h1>
+  <h2></h2>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
